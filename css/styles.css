@@ -1,0 +1,264 @@
+body {
+    margin: 0 auto;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.nav-bar{
+    background-color: #af929a;
+    height: 60px;
+    width: 100%;
+}
+.nav-list {
+    margin-right: 10px;
+    margin: 0 auto;
+    float: right;
+    
+}
+.list-item {
+    display: block;
+    float: left;
+    margin-right: 25px;
+    list-style-type: none;
+    height: 30px;
+    width: 50px;
+    
+}
+.list-item a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold
+    
+}
+.abtcolumn {
+    text-align: center;
+}
+.sound {
+    display: inline-block;
+    width: 300px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.list-item a:hover{
+    color: green;
+    background-color: white;
+}
+.banner {
+    background-image: url("../images/bsgfleet1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+.banner-text-background {
+    height: 95px;
+    width: 200px;
+    background-color: clear;
+    position: absolute;
+    top: 320px;
+    left: 47%;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px #ffffff;
+}
+.banner-text {
+    color: #fff;
+    margin-top 5px; 
+    text-shadow: 2px 2px #ffffff;
+}
+.text {
+    color: #f49242;
+}
+
+.logo{
+    margin-top: 0;
+    padding-top: 3px;
+    padding-left: 3px;
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    width: 100%;
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+.about-container {
+     width: 100%;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/bsgfleet2.jpg");
+    background-size: cover;
+}
+.about-col-one {
+     width: 33%;
+    height: 600px;
+    border: 2px solid #f48942;
+    float: left;
+    background-image: url("../images/bsgship2.jpg");
+    position: absolute;
+    left: 0;
+}
+.abtcolumn {
+    margin-top: 10px;
+}
+.column-one {
+    width: 49%;
+    height: 400px;
+    border: 3px solid #f48942;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.giphy-embed {
+    margin: 0 auto;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.bsgcast {
+    left: 10px;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.column-two {
+     width: 49%;
+     height: 400px;
+     border: 3px solid #f48942;
+     position: absolute;
+     left: 50%;
+     margin-left: 2px;
+     margin-top: 10px;
+}
+.about-col-two {
+     width: 33%;
+    height: 600px;
+    border: 2px solid #f48942;
+    background-image: url("../images/bsglogo75.jpg");
+    background-position: center;
+    position: absolute;
+    left: 33%;
+}
+.about-col-three {
+     width: 33%;
+    height: 600px;
+    border: 2px solid #f48942;
+    background-image: url("../images/cylon1.jpg");
+    /*float: left;*/
+    position: absolute;
+    left: 66%;
+
+}
+
+.col-text {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.abtdiv1 {
+    width: 100%;
+    height: 300px;
+    padding-top: 700px;
+    position: absolute;
+;
+}
+
+.abttxt {
+    color:  #f49242;
+    font-weight: bold;
+}
+.abttxt1 {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.bsgc {
+    width: 100%;
+   
+}
+.hanger1 {
+    margin-left: 0 auto;
+}
+
+.video1 {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/bsgyard.jpg");
+    position: relative
+    
+}
+
+.video1-heading {
+    text-align: center;
+    
+}
+.video1-border {
+    border: 3px solid #f48942;
+    height: 450px;
+    width: 600px;
+    
+}
+.viddiv {
+    margin-left: 700px;
+    margin-top: 160px;
+    position: absolute
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.midtxt {
+    text-align: center
+}
+.block {
+    display: inline-block;
+    border: 3px solid #f48942;
+    height: 316px;
+    width: 561px;
+}
+
+.form {
+    background-image: url("../images/planet.jpg");
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.footer {
+    background-color: #af929a;
+    height: 200px;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.footer-col {
+    width: 32%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    
+} 
+.fa-twitter-square {
+    margin-left: 15px;
+    color: orange;
+    
+}
+.fa-facebook {
+    color: #3B5998;
+}
+
+.copyright {
+   font-weight: 350;
+   
+}
